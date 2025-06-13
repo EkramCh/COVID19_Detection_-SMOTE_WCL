@@ -72,11 +72,7 @@ This project uses three publicly available COVID-19 chest X-ray datasets:
 | DenseNet201 + SMOTE  | 1       | 98.64        | 98.63        | 98.97   |
 | VGG19 + WCL          | 3       | 94.87        | 94.87        | 94.86   |
 
-> For full metrics (Sensitivity, Specificity, Precision, NPV), refer to the paper or `results/` folder.
-
----
-
-
+> For full metrics (Sensitivity, Specificity, Precision, NPV).
 
 ---
 
@@ -95,9 +91,6 @@ If you use this repository, please cite our work:
   publisher={Elsevier}
 }
 ```
-
----
-
 ## 📬 Contact
 
 If you have any questions or suggestions, feel free to reach out:
