@@ -61,9 +61,6 @@ This project uses three publicly available COVID-19 chest X-ray datasets:
 > ⚠️ Each dataset must be downloaded manually from the respective links and placed in the correct folder structure as described in the project setup.
 
 ---
-
----
-
 ## 📊 Results Summary
 
 | Model + Strategy     | Dataset | Accuracy (%) | F1 Score (%) | AUC (%) |
