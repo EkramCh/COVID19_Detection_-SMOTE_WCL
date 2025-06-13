@@ -42,13 +42,23 @@ Each model is fine-tuned for multi-class classification using preprocessed chest
 
 ## 📂 Datasets
 
-We used three public COVID-19 X-ray datasets:
+This project uses three publicly available COVID-19 chest X-ray datasets:
 
-1. **COVID-19 Radiography Database**  
-2. **COVIDx Dataset**  
-3. **COVID ChestX-ray Dataset**
+1. **[COVID-19 Radiography Database](https://www.kaggle.com/tawsifurrahman/covid19-radiography-database)**  
+   - Hosted on Kaggle  
+   - Contains images for COVID-19, Viral Pneumonia, and Normal classes  
+   - Resolution: 1024 × 1024
 
-Links and instructions to access them are provided in `data/README.md`.
+2. **[COVID Chest X-ray Dataset](https://github.com/ieee8023/covid-chestxray-dataset)**  
+   - Maintained by Joseph Paul Cohen  
+   - Includes chest X-ray and CT scans from various sources  
+   - Often used in combination with RSNA pneumonia datasets
+
+3. **[COVIDx Dataset (used in COVID-Net)](https://github.com/lindawangg/COVID-Net/blob/master/docs/COVIDx.md)**  
+   - Created by aggregating several open-source datasets  
+   - Large and widely used for benchmarking deep learning models
+
+> ⚠️ Each dataset must be downloaded manually from the respective links and placed in the correct folder structure as described in the project setup.
 
 ---
 
