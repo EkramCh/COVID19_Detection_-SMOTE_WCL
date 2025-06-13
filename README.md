@@ -62,46 +62,6 @@ This project uses three publicly available COVID-19 chest X-ray datasets:
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/EkramCh/COVID19_Detection_-SMOTE_WCL.git
-cd COVID19_Detection_-SMOTE_WCL
-```
-
-### 2. Install requirements
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Prepare the data
-
-Ensure the datasets are downloaded and stored in `data/` with the following structure:
-
-```
-data/
-├── dataset1/
-├── dataset2/
-└── dataset3/
-```
-
-### 4. Train a model
-
-```bash
-python train.py --model DenseNet201 --dataset dataset1 --balance WCL
-```
-
-Options for `--balance`: `WCL` or `SMOTE`
-
-### 5. Evaluate the model
-
-```bash
-python evaluate.py --weights saved_models/densenet201_wcl.h5
-```
-
 ---
 
 ## 📊 Results Summary
@@ -116,18 +76,7 @@ python evaluate.py --weights saved_models/densenet201_wcl.h5
 
 ---
 
-## 🏗️ Project Structure
 
-```
-├── data/               # Raw and preprocessed datasets
-├── models/             # Model definitions
-├── results/            # Saved results and metrics
-├── train.py            # Training script
-├── evaluate.py         # Evaluation script
-├── utils.py            # Helper functions
-├── README.md
-└── requirements.txt
-```
 
 ---
 
